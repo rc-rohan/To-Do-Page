@@ -1,0 +1,75 @@
+:root{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Indie Flower', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Rowdies', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poiret One', cursive;
+}
+body{
+    line-height: 20px;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+.card{
+    padding: 20px;
+    box-shadow: 0 0 20px -2px;
+    width: 400px;
+}
+.box{
+    border: 2px solid #E4E5E6;    
+    border-radius: 2px;
+    padding: 20px; 
+    margin:10px ;  
+}
+h1{
+    margin-bottom: 30px;
+}
+input{
+    display: block;
+}
+label{
+    margin-top: 50px;
+    
+}
+input[type=text]{
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    border:none ;
+    border-bottom: 1px solid #DFE0E7;
+    letter-spacing: 2px;
+    font-size: 1rem ;
+    font-weight: 700;
+}
+.btn,.clear-btn{
+    padding: 0.5rem 1rem;
+    margin: 10px;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+    color: #ECEFF1;
+    font-family: 'Rowdies', cursive;
+}
+.btn{
+    background: #2196F3;
+}
+.clear-btn{
+    background: #333;
+}
+
+li{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}

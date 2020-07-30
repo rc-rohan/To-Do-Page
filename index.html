@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Website</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="../FontAwesome/css/all.min.css">
+    <!-- fonts.goole -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&family=Poiret+One&family=Rowdies&display=swap"
+        rel="stylesheet">
+
+    <!-- Main css File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="box">
+                <h1 class="heading">Task List</h1>
+                <label for="new-task">Add New Task</label>
+                <input type="text" id="new-task" name="new-task">
+                <input type="submit" class="btn" value="Add Task">
+            </div>
+            <div class="box">
+                <h1>Tasks</h1>
+                <label for="filter-task">Filter Your Task</label>
+                <input type="text" id="filter-task" name="filter-task">
+                <div class="tasks">
+                    <ul class="colletions"></ul>
+                </div>
+                <input type="submit" value="Clear Task" class="clear-btn">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
